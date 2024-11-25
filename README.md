@@ -1,4 +1,9 @@
 # Card-Tab 书签卡片式管理，进入管理模式可以自由移动书签位置，添加和删除书签，支持自定义网站分类，支持切换暗色主题
+#### 2024.11.24 Update：
+##### 1. Translate to English
+##### 2. If do not like Chinese hitokoto (一言), change line 384 to 
+<!--  <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>  -->
+
 #### 2024.10.30 更新：
 ##### 1、增加了前端验证，并取消了在浏览器中保存日志。现在超过15分钟需重新登录，及时退出登录能让你的隐私更安全；
 ##### 2、进入设置之前会在自动备份书签，KV里将保存最近10次的备份；
