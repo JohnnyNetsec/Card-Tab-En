@@ -2,7 +2,9 @@
 #### 2024.11.24 Update：
 ##### 1. Translate to English
 ##### 2. If do not like Chinese hitokoto (一言), change line 384 to 
+```rb
 <!--  <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>  -->
+```
 
 #### 2024.10.30 更新：
 ##### 1、增加了前端验证，并取消了在浏览器中保存日志。现在超过15分钟需重新登录，及时退出登录能让你的隐私更安全；
