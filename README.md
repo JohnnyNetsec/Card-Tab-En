@@ -1,4 +1,13 @@
 # Card-Tab 书签卡片式管理，进入管理模式可以自由移动书签位置，添加和删除书签，支持自定义网站分类，支持切换暗色主题
+### Deployment
+##### 1. Log into Cloudflare. Create a new workers，copy / paste update-workers-en.js code，then Deploy.
+##### 2. Create a CARD_ORDER KV namespace which is used to store all bookmarks
+##### 3. Create a new variable，to store admin password。New variable name is ADMIN_PASSWORD and the value is your password. 
+
+##### 4. bind workers's CARD_ORDER variable with the new created KV
+
+##### 5. add your own sub-domain
+
 #### 2024.11.24 Update：
 ##### 1. Translate to English
 ##### 2. If do not like Chinese hitokoto (一言), change line 384 to 
