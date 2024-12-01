@@ -1,4 +1,4 @@
-# Card-Tab 书签卡片式管理，进入管理模式可以自由移动书签位置，添加和删除书签，支持自定义网站分类，支持切换暗色主题
+# Card-Tab Bookmark card management, you can freely move bookmark positions, add and delete bookmarks when entering management mode, support custom website classification, and support switching dark themes
 ### Deployment
 ##### 1. Log into Cloudflare. Create a new workers，copy / paste update-workers-en.js code，then Deploy.
 ##### 2. Create a CARD_ORDER KV namespace which is used to store all bookmarks
